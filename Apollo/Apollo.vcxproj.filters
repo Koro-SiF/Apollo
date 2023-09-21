@@ -27,9 +27,15 @@
     <ClInclude Include="src\Apollo\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Apollo\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Apollo\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Apollo\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
